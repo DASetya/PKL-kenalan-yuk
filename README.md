@@ -7,11 +7,11 @@ Project PKL dengan judul kenalan yuk
 3. jalankan composer install (jgn sampai ada error)
 4. jalankan npm install (jgn sampai ada error, warning gpp)
 5. jalankan npm run dev
-6. buat db di local
-7. setting .env sesuai local masing"
+6. buat database di local (XAMPP)
+7. setting .env sesuai local masing" (buka file dengan text editor, edit "DB_DATABASE=namaDatabase")
 8. jalankan php artisan key:generate
 9. jalankan php artisan migrate:fresh --seed
-10. akses webnya, selesai
+10. akses webnya (http://localhost:8000), selesai
 
 Note : bisa pake perintah php artisan serve kalo pingin pake web servernya laravel sendiri
 
